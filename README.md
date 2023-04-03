@@ -1,6 +1,6 @@
 ## Lucy - an HTML/CSS landing page
 
-[Click here to view the webpage.](https://clinquant-sorbet-cc70a4.netlify.app/)
+[Click here to view the webpage.](https://astonishing-chimera-8edee4.netlify.app/)
 
 ---
 

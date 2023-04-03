@@ -60,6 +60,12 @@ a {
     transition: ease .2s;
 }
 
+.btn--primary {
+    color: #fff;
+    background: #FF5B2E;
+    border-color: #FF5B2E;
+}
+
 .btn:hover {
     color: #fff;
     background: rgba(0, 9, 88, 0.7);
@@ -115,6 +121,7 @@ a {
 
 .hero__inner {
     display: flex;
+    gap: 120px;
     align-items: center;
     justify-content: space-between;
 }
@@ -216,4 +223,70 @@ a {
     margin: 14px;
     border: 2px solid #F2F2F2;
     border-radius: 999px;
+}
+
+.hero__heading {
+    font-weight: 800;
+    font-size: 6.6rem;
+    line-height: 1.15;
+    color: #000958;
+}
+
+.hero__desc {
+    width: 391px;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #656689;
+}
+
+.hero__row {
+    margin-top: 38px;
+    display: flex;
+    gap: 38px;
+    align-items: center;
+}
+
+.hero__cta-btn {
+    min-width: 189px;
+    height: 60px;
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+    display: flex;
+    gap: 10px;
+}
+
+.hero__cta-btn:hover {
+    background: #FFFAF5;
+    color: #FF5B2E;
+}
+
+.hero__cta-btn:hover .btn__icon {
+    background: #FF5B2E;
+    color: #FFFAF5;
+}
+
+.hero__cta-btn .btn__icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    color: #FF5B2E;
+    background: #FFFAF5;
+    box-shadow: 4px 3px 10px -1px rgba(191, 41, 0, 0.4);
+    border-radius: 50%;
+    transition: ease .25s;
+}
+
+.hero__cta {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1;
+    text-decoration-line: underline;
+    color: #000958;
+}
+
+.hero__cta:hover {
+    font-weight: 600;
 }

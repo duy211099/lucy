@@ -510,7 +510,7 @@ a {
 
 .tab-list {
     position: relative;
-    display: flex;
+    display: inline-flex;
     column-gap: 56px;
 }
 

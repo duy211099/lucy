@@ -569,3 +569,130 @@ a {
     color: #FF5D31;
     border-bottom: 2px solid #FF5D31;
 }
+
+/* Services */
+
+.service {
+    margin-top: 190px;
+}
+
+.service__top {
+    text-align: center;
+}
+
+.service__desc {
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1;
+    text-align: center;
+    color: #5E6085;
+    margin-bottom: 15px;
+}
+
+.service__body {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 65px;
+    margin-top: 70px;
+}
+
+.service__column {
+    margin-top: 71px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.service-item {
+    width: 294px;
+    background: #FFFFFF;
+    border: 2px solid rgba(255, 188, 122, 0.26);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.service-item__heading {
+    padding-left: 12px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1;
+    color: #000958;
+    position: relative;
+}
+
+.service-item__heading::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    content: "";
+    display: inline-block;
+    width: 2px;
+    border-radius: 1px;
+    background: linear-gradient(#FF5B2E, #FFA187);
+}
+
+.service-item__desc {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: #656689;
+}
+
+.service-item__read-more {
+    margin-top: 24px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 1.2;
+    line-height: 1;
+    color: #34396A;
+}
+
+.service__media {
+    margin-top: 18px;
+    position: relative;
+}
+
+.service__media:after {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 0;
+    height: 350px;
+    background: linear-gradient(180deg, #9DF1FB 0%, #73D0DB 108.14%);
+    border-radius: 10px;
+}
+
+.servicer__img {
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.service__cta-wrap {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.service__cta {
+    width: 214px;
+    height: 56px;
+    border: 1px solid hsl(13deg, 100%, 60%, .6);
+    color: #FF5B2E;
+}
+
+.service__cta:hover {
+    opacity: 1;
+    background-color: #FF5B2E;
+    color: #fff;
+}

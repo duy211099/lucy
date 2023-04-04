@@ -730,7 +730,7 @@ a {
 .staff-item__img-wrap::before {
     content: "";
     position: absolute;
-    height: 266px;
+    height: 94%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -775,12 +775,13 @@ a {
 }
 
 .staff-item__decor {
+    width: 116%;
     position: absolute;
     left: 50%;
 }
 
 .staff-item:nth-child(2n) .staff-item__decor {
-    bottom: 153px;
+    bottom: 55%;
     transform: translateX(-50%) rotate(180deg);
 }
 

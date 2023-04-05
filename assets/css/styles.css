@@ -56,13 +56,19 @@ a {
     font-weight: 600;
     font-size: 1.4rem;
     color: #000958;
+    cursor: pointer;
     transition: ease .2s;
 }
 
 .btn--primary {
-    color: #fff;
-    background: #FF5B2E;
-    border-color: #FF5B2E;
+    color: #fff !important;
+    background: #FF5B2E !important;
+    border-color: #FF5B2E !important;
+}
+
+.btn--primary:hover{
+    background: #fff !important;
+    color: #FF5B2E !important;
 }
 
 .btn:hover {
@@ -865,4 +871,76 @@ a {
     position: absolute;
     top: -20px;
     right: -104px;
+}
+
+.pricing__list {
+    width: 994px;
+    max-width: calc(100% - 64px);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 44px;
+    margin-top: 56px;
+}
+
+.pricing-item {
+    padding: 30px 28px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.pricing-item__type {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1;
+    color: #FF5B2E;
+}
+
+.pricing-item__heading {
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1;
+    color: #3F4065;
+}
+
+.pricing-item__pricing {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 3.3rem;
+    line-height: 1.03;
+    color: #000958;
+}
+
+.pricing-item__btn {
+    margin-top: 22px;
+    width: 100%;
+    background: #fff;
+    color: #FF5B2E;
+    border-color: #FF5B2E;
+}
+
+.pricing-item__btn:hover {
+    color: #fff;
+    background: #FF5B2E;
+}
+
+.pricing-item__list {
+    margin-top: 24px;
+}
+
+.pricing-item__item {
+    align-items: center;
+    display: flex;
+    gap: 14px;
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #656689;
+}
+
+.pricing-item__item::before {
+    content: "";
+    content: url(../img/right-check.svg);
 }
